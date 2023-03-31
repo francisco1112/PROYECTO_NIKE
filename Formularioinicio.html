@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<title></title>
+<head>
+    <style>
+       body{
+           background-color: black;
+           
+       }
+       p, h2{
+           color:aliceblue;
+           text-align: center;
+       }
+       p{
+           text-align: center;
+       }
+       .iniciar{
+           width: 100px; height: 30px;
+       }
+       input{
+           padding-top: 0.5em;
+           margin-top: 0.2em;
+       }
+       fieldset{
+           width: 500px;
+           text-align: center;
+       }
+    </style>
+</head>
+<body align="center">
+    <div align="center">
+    <fieldset align="center">
+    <legend><h2>INICIAR SESIÓN</h2></legend>
+    <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" target="izq" method="get">
+        <p><input type="text" name="usuario" required placeholder="Usuario" maxlength="30" size="24"></p>
+        <p><input type="password" name="contraseña" minlength="8" maxlength="30" size="24" required placeholder="Contrase&ntilde;a"></p>
+    </fieldset>
+    <p><input type="submit" value="Iniciar sesión" class="iniciar"></p>
+
+    </div>
+    </form>
+    
+   
+    
+</body>
+</html>
